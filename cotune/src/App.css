@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+}
+
+.p1 {
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  margin-left: 70px;
+}
+.App {
+  max-width: 300000px;
+  text-align: left;
+}
+.p2 {
+  margin-top: 50px;
+}
+.pid {
+  margin-left: 0px;
+  vertical-align: bottom;
+  width: 350px;
+}
+.pendulum {
+  width: 300px;
+  margin-left: 0px;
+  vertical-align: bottom;
+}
+.ld {
+  font-family: serif;
+}
+.login {
+  display: inline-block;
+  width: 300px;
+  background-color: blueviolet;
+}
+.log {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 100px;
+}
+.footer {
+  display: inline;
+}

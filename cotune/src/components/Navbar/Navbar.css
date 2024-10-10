@@ -1,0 +1,52 @@
+/* src/components/Navbar/Navbar.css */
+.header {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the logo */
+  align-items: center; /* Center items vertically */
+  padding: 20px; /* Add padding around the header */
+  background-color: #ffffff; /* White background */
+  border-bottom: 2px solid #000000; /* Black line at the bottom */
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Position it at the top */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+  width: 150px; /* Set a width for the logo */
+}
+
+.navbar-links {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Use flexbox for links */
+  gap: 20px; /* Space between links */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  position: absolute; /* Position links absolutely */
+  right: 20px; /* Align links to the right */
+}
+
+.navbar-links a {
+  color: #000000; /* Black text color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 18px; /* Font size for links */
+  transition: color 0.3s ease; /* Transition effect for hover */
+}
+
+.navbar-links a:hover {
+  color: #007bff; /* Change color on hover (example: blue) */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    align-items: center; /* Center links horizontally */
+  }
+}
+
+/* Additional padding for body content to account for the fixed navbar */
+body {
+  padding-top: 80px; /* Adjust this value based on your navbar height */
+}

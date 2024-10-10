@@ -1,0 +1,63 @@
+/* src/Home.css */
+.home {
+  padding: 40px; /* Increased padding for a more spacious feel */
+  text-align: center;
+  background-color: #f5f6fa; /* Slightly off-white background for a softer look */
+  min-height: 100vh; /* Ensure the home section covers the full height of the viewport */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center the content vertically */
+}
+
+.home h1 {
+  color: #2c3e50; /* Darker color for the heading for better contrast */
+  font-size: 3rem; /* Increased font size for emphasis */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.home p {
+  font-size: 20px; /* Increased font size for better readability */
+  color: #34495e; /* Slightly lighter dark color for text */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.home ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0; /* Remove default margin */
+  display: inline-block; /* Center the list items */
+}
+
+.home li {
+  margin: 15px 0; /* Space between list items */
+  font-size: 18px; /* Font size for list items */
+  color: #2980b9; /* Add color to the list items for emphasis */
+}
+
+/* Image container styles */
+.image-container {
+  display: flex; /* Use flexbox for image alignment */
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Space between the images */
+  margin-top: 30px; /* Space above the images */
+}
+
+/* Add a hover effect for list items */
+.home li:hover {
+  text-decoration: underline; /* Underline on hover for interactivity */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 2.5rem; /* Decrease font size on smaller screens */
+  }
+
+  .home p {
+    font-size: 18px; /* Slightly smaller font size for paragraph */
+  }
+
+  .home li {
+    font-size: 16px; /* Font size for list items on smaller screens */
+  }
+}
